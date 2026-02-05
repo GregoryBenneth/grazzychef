@@ -83,7 +83,7 @@ export default function Home() {
                 key={item.title}
                 className="group relative overflow-hidden rounded-2xl border border-stone-800 bg-stone-900/80 transition-all hover:border-amber-700/50"
               >
-                <div className="aspect-[4/3] overflow-hidden">
+                <div className="aspect-4/3 overflow-hidden">
                   <Image
                     src={item.img}
                     alt={item.title}
