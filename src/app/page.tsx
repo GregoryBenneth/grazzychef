@@ -157,7 +157,7 @@ export default function Home() {
           <p className="mb-10 text-stone-400">
             Conte-me sobre seu evento, data e preferências. Retorno em até 24h.
           </p>
-          <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-center">
+          <div className="flex flex-col items-center gap-6 ">
             <a
               href="https://wa.me/5522997697222"
               target="_blank"
@@ -170,7 +170,16 @@ export default function Home() {
               WhatsApp
             </a>
 
+            <a
+              className="text-stone-400 hover:text-amber-400 transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.com/maps/place/Regi%C3%A3o+dos+Lagos,+RJ/@-22.8965,-42.0414,17z/data=!4m6!3m5!1s0x97693db4c4937b:0x5f94a926cd6ab34f!8m2!3d-22.8964629!4d-42.0413759!16s%2Fg%2F122h69gs?hl=pt-BR&entry=ttu&g_ep=EgoyMDI2MDIwMS4wIKXMDSoASAFQAw%3D%3D"
+            >
+              Cabo Frio, Rio de Janeiro - RJ
+            </a>
           </div>
+
         </div>
       </section>
 
